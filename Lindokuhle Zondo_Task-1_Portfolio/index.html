@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lindokuhle Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7045973edf.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- Inside the #header div -->
+    <div id="header">
+    <div class="container">
+        <nav>
+            <div class="logo">Lindokuhle</div>
+               
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            
+        </nav>
+        <div class="header-content">
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Lindokuhle</span><br>Zondo</h1>
+                <div class="header-links">
+                    <a href="https://github.com/217072355/CODSOFT-" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+                    <a href="myCV/Lindokuhle Thuthukani_217089546-CV.pdf" download class="btn1">Download CV</a>
+                </div>
+            </div>
+           
+            <div class="header-media">
+                <div class="header-image">
+                    <img src="images/IMG_0975 (1).jpg" alt="Lindokuhle">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!---------About Starts here-------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                  <img src="images/IMG_0970.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Aspiring IT professional with a strong academic
+                        foundation in computer science and a passion for
+                        technology. Seeking opportunities to apply my
+                        technical skills and knowledge in software
+                        development, database management, and web
+                        development to contribute to innovative IT
+                        projects. My goal is to grow as a skilled IT specialist,
+                        continuously adapt to emerging technologies, and
+                        make a meaningful impact in the ever-evolving
+                        world of information technology.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"  onclick="opentab('education')">Education</p>
+                            <p class="tab-links"  onclick="opentab('hobbies')">Hobbies</p>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>25 Nov 2023-25 Dec 2023</span><br>Web Developer Intern at CodSoft</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2012-2016</span><br>Imbilane High School</li>
+                                <li><span>2022-2024</span><br>University of Johannesburg</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="hobbies">
+                            <ul>
+                                <li><span>Gaming:</span><br>Enjoying video games and understanding game development principles.</li></li>
+                                <li><span>Volunteering:</span><br> Contributing time to community service or charitable organizations.</li>
+                                <li><span>Traveling:</span><br> Exploring new cultures, cuisines, and destinations.</li>
+                                <li><span>Music:</span><br> Playing a musical instrument or simply enjoying and discovering new music.</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Skills section starts here -->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="skills-list">
+                <div class="skill">
+                    <h3>HTML5</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>CSS3</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>BootStrap</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 50%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Java</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>C++</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 72%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Visual Basic</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>C</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 77%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 45%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>C#</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 81%;"></div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <!-- Skills section ends here -->
+
+
+    <!----Projects Starts here-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/web-design.webp">
+                    <div class="layer">
+                        <h3>HomeHub Web App</h3>
+                        <p>Developed an online platform connecting users with local contractors for home improvement projects, 
+                            simplifying the process and enhancing accessibility for busy professionals.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/database-design.jpg">
+                    <div class="layer">
+                        <h3>Flight System Database Design</h3>
+                        <p>Navigating the complexities of the aviation industry demands precision and reliability, 
+                           and that's where Lindokuhle Zondo's services come into play.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/tcp.gif">
+                    <div class="layer">
+                        <h3>PDFRetrievePro client-server App</h3>
+                        <p>protocol-based client-server application for secure PDF file retrieval, offering authentication, file listing, and downloads.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div> 
+            <a href="viewmore.html" class="btn2">View More</a>  
+        </div>
+    </div>
+     <!----Contacts starts here-->
+     <div id="contact">
+        <div class="contaner">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Get In Touch</h1>
+                    <p><i class="fas fa-paper-plane"></i>lindozondo88@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>0636672550</p>
+                    <p><i class="fa-brands fa-linkedin"></i>linkedin.com/in/lindokuhle-zondo-b72213269</p> 
+                    <p><i class="fa-solid fa-location-dot"></i>B229 Impala Crescent, Empangeni, 3880</p>
+                                   
+                </div>
+            </div>
+        </div>
+     </div>
+      <!----Copyright starts here-->
+      <div class="copyright">
+        <p>Copyright © Lindokuhle 2023. All rights reserved. The content and works within this portfolio are 
+                   protected by copyright laws and may not be reproduced, distributed, or used in any 
+                               form without the written permission of the author.</p>
+      </div>
+
+    <!----JavaScript-->
+    
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+
+            // Add the following lines to add a green border when the tab is clicked
+            if (tabname === 'experience' || tabname === 'education' || tabname === 'hobbies') {
+            document.getElementById(tabname).style.border = "2px solid #02581c";
+            document.getElementById(tabname).style.padding = "10px";
+        }
+     
+    }
+    
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right ="0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px";
+        }
+               
+    </script>
+    
+</body>
+</html>
